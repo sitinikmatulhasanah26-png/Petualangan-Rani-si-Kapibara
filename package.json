@@ -1,0 +1,16 @@
+{
+  "name": "petualangan-rani-netlify",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.9"
+  },
+  "devDependencies": {
+    "netlify-cli": "^23.0.0"
+  }
+}
